@@ -3,8 +3,18 @@ Simple XML parser to create the annotation masks of the INBreast dataset
 
 Files and description:
 ----------------------
-annotation.py -> The main file containing the Annotation class \
-annotation_tb.py -> A testbench for the tool
+```
+INBreast_XML_parser
+│       
+│
+└─── python
+│    │   annotation.py  #The main file containing the Annotation class
+│    │   annotation_tb.py #A testbench for the tool
+│   
+│   
+└─── notebook
+     │   INbreast_xml_parser.ipynb #Colab/Jupyter notebook version of the tool
+```
 
 INBreast dataset:
 -----------------
