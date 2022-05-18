@@ -5,7 +5,7 @@ Files and description:
 ----------------------
 ```
 INBreast_XML_parser
-│       
+│    README.md
 │
 └─── python
 │    │   annotation.py  #The main file containing the Annotation class
