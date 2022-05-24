@@ -1,6 +1,21 @@
 # INBreast_XML_parser
 Simple XML parser to create the annotation masks of the INBreast dataset
 
+**Note:** The DICOM files were renamed in order to match the corresponding names in csv
+
+**Example:**
+
+     _Before preprocessing:_
+     
+     image name in csv: 2234546
+     corresponding file: 2234546_hduiu2e8329398021.dcm
+     
+     _After preprocessing:_
+     
+     image name in csv: 2234546
+     corresponding file: 2234546.dcm
+     
+
 Files and description:
 ----------------------
 ```
