@@ -1,6 +1,10 @@
 # INBreast_XML_parser
 Simple XML parser to create the annotation masks of the INBreast dataset
 
+Required Libraries:
+
+     os, cv2, math, numpy, pydicom, polygon from skimage.draw, xml.etree.ElementTree, pyplot from matplotlib
+
 **Note:** The DICOM files were renamed in order to match the corresponding names in csv
 
 **Example:**
