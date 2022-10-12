@@ -5,8 +5,8 @@ import pydicom as pdcm
 from annotation import Annotation
 from matplotlib import pyplot as plt
 
-XML_PATH = "path to XML folder"
-DCM_PATH = "path to DICOM folder"
+XML_PATH = "path to XML folder here"
+DCM_PATH = "path to DICOM folder here"
 img_name = "20586908"
 
 
