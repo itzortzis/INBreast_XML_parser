@@ -35,6 +35,18 @@ INBreast_XML_parser
      │   INbreast_xml_parser.ipynb #Colab/Jupyter notebook version of the tool
 ```
 
+## Installation
+
+The EMV_tool can be cloned from here or it can be installed using Python pip tool
+
+- Option 1: Clone the repository and see the demo files in python and notebook folders
+- Option 2:
+  - Install tool using ```pip3 install git+https://github.com/itzortzis/INBreast_XML_parser.git```
+  - Import the needed components ```import annotation```
+  
+Enjoy!!!
+  
+
 INBreast dataset:
 -----------------
 Inês C. Moreira, Igor Amaral, Inês Domingues, António Cardoso, Maria João Cardoso, Jaime S. Cardoso,
