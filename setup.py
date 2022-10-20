@@ -21,5 +21,5 @@ setuptools.setup(
     },
     license='GPL-3.0',
     packages=['python'],
-    install_requires=['numpy', 'polygon', 'xml', 'math'],
+    install_requires=['numpy', 'polygon', 'xml.etree.ElementTree', 'math'],
 )
