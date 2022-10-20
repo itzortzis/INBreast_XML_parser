@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='python',
+    name='anot_core',
     version='0.1.0',
     author='I.N.Tzortzis',
     author_email='i.n.tzortzis@gmail.com',
@@ -20,6 +20,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/itzortzis/INBreast_XML_parser/issues"
     },
     license='GPL-3.0',
-    packages=['python'],
+    packages=['anot_core'],
     install_requires=['numpy', 'polygon'],
 )
