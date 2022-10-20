@@ -37,7 +37,7 @@ INBreast_XML_parser
 
 ## Installation
 
-The EMV_tool can be cloned from here or it can be installed using Python pip tool
+The INBreast_XML_parser can be cloned from here or it can be installed using Python pip tool
 
 - Option 1: Clone the repository and see the demo files in python and notebook folders
 - Option 2:
