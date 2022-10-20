@@ -20,6 +20,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/itzortzis/INBreast_XML_parser/issues"
     },
     license='GPL-3.0',
-    packages=['emv'],
+    packages=['python'],
     install_requires=['numpy', 'skimage', 'xml', 'math'],
 )
