@@ -5,11 +5,11 @@ from skimage.draw import polygon
 import xml.etree.ElementTree as ET
 
 
-class Annotation:
+class INbreastAnnotation:
 
   def __init__(self, xml_path, filename, shape):
 
-    self.xml_path = xml_path + filename + '.xml'
+    self.xml_path = os.path.join(xml_path, f"{filename}.xml")
     self.mask     = self.create_mask_array(shape)
     self.fill_mask()
 
