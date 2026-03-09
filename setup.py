@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='inbreastxmlparser',
-    version='0.2.0',
+    version='0.2.1',
     author='itzorzis',
     author_email='i.n.tzortzis@gmail.com',
     description='INBreast_XML_parser installation',

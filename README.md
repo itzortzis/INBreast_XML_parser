@@ -27,7 +27,6 @@ INBreast_XML_parser
 │    README.md
 │
 └─── python
-│    │   annotation.py  #The main file containing the Annotation class
 │    │   annotation_tb.py #A testbench for the tool
 │   
 │   
@@ -42,7 +41,7 @@ The INBreast_XML_parser can be cloned from here or it can be installed using Pyt
 - Option 1: Clone the repository and see the demo files in python and notebook folders
 - Option 2:
   - Install tool using ```pip3 install git+https://github.com/itzortzis/INBreast_XML_parser.git```
-  - Import the needed components ```import annotation```
+  - Import the needed components ```from inbreastxmlparser.annotation import INbreastAnnotation```
   
 Enjoy!!!
   

@@ -2,7 +2,7 @@
 import math
 import numpy as np
 import pydicom as pdcm
-from annotation import Annotation
+from inbreastxmlparser.annotation import INbreastAnnotation
 from matplotlib import pyplot as plt
 
 XML_PATH = "path to XML folder here"
@@ -14,7 +14,7 @@ img_name = "20586908"
 dcm = pdcm.dcmread(DCM_PATH + img_name + '.dcm')
 img = dcm.pixel_array
 print(img.shape)
-a   = Annotation(XML_PATH, img_name, img.shape)
+a   = INbreastAnnotation(XML_PATH, img_name, img.shape)
 
 fig, (ax1, ax2, ax3, ax4) = plt.subplots(1, 4)
 fig.set_figheight(6)
